@@ -1,0 +1,3 @@
+module deepseek-nvim-agent
+
+go 1.24.6
