@@ -1,0 +1,39 @@
+cat > .gitignore << EOF
+# Binaries
+deepseek-nvim-agent
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Go files
+/bin/
+/pkg/
+/vendor/
+/go.sum
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config files (don't commit API keys!)
+config.local.*
+.env
+*.key
+*.pem
+
+# Build artifacts
+/dist/
+/build/
+EOF
+
+# Add .gitignore to repository
+git add .gitignore
+git commit -m "Add .gitignore file"
