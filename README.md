@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # DeepSeek Neovim Agent
 
 A powerful AI coding assistant that integrates DeepSeek API with Neovim for code interpretation and editing.
